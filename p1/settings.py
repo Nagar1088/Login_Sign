@@ -135,7 +135,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '*').split(',')
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8000', 'http://login-form.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8000', 'https://login-signup-x6me.onrender.com/']
 
 
 EMAIL_BACKEND = os.getenv('EMAIL_BACKEND', 'django.core.mail.backends.smtp.EmailBackend')
