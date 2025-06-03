@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # Application definition
-
+DEBUG= False  # Allow all hosts for development; change in production
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
